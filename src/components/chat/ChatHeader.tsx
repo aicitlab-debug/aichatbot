@@ -1,4 +1,5 @@
 import { Bot, Sparkles } from "lucide-react";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 export const ChatHeader = () => {
   return (
@@ -21,6 +22,8 @@ export const ChatHeader = () => {
           Always here to help you
         </p>
       </div>
+
+      <ThemeToggle />
     </div>
   );
 };
